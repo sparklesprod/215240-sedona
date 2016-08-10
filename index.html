@@ -5,8 +5,8 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-      <header class="main-header">
-          <div class="container">
+      <div class="container">
+          <header class="main-header">
               <nav class="main-navigation">
                   <ul>
                       <li>
@@ -22,102 +22,118 @@
                           <a href="#">Гостиницы</a>
                       </li>
                   </ul>
+                  <a class="" href="#"><img src="img/logo.png" width="" height="" alt="Логотип"></a>
               </nav>
-          </div>
-      </header>
-      <main class="container">
-          <div class="index-logo">
-              <img src="img/index-logo.png" width=" " height=" " alt="Логотип">
-          </div>
-          <section class="features">
-              <div class="features-desc">
-                  <p>Седона - Небольшой городок в Аризоне, заслуживающий большего!</p>
-                  <p>Рассмотрим 5 причин, по которым седона круче, чем Гранд Каньон!</p>
+          </header>
+          <main class="main-content">
+              <!-- Логотип -->
+              <div class="index-logo">
+                  <img src="img/logo-title.png" width="" height="" alt="Логотип">
               </div>
-              <div class="features-item">
-                  <div class="features-item-left"> <!-- Продумать название класса -->
-                      <b class="features-name">Настоящий городок</b>
-                      <p>№1</p>
-                      <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-                  </div>
-                  <div class="features-item-right">
-                      <img src="img/index-img1.png" width="" height="" alt="Картинка блока 1">
+              
+              <!-- Описание -->
+              <div class="index-content">
+                  <div class="index-content-text">
+                      <h1>Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+                      <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
                   </div>
               </div>
-              <!-- Классы с тремя маленькими блоками -->
-              <div class="features-item-small">
+              
+              <!-- Преимущества -->
+              <section class="features">
+                  <!-- #1 -->
                   <div class="features-item">
-                      <img src="img/index-pic1.png" width="" height="" alt="">
-                      <h2 class="features-title">Жилье</h2> <!-- Какой тег использовать лучше <h2> или <b> -->
+                      <div class="features-item-text">
+                          <h2 class="features-item-name">Настоящий городок</h2>
+                          <div class="features-item-number">№1</div>
+                          <p class="features-item-description">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+                      </div>
+                      <div class="features-item-img">
+                          <img src="img/pic-1.jpg" width="" height="" alt="Картинка блока 1">
+                      </div>
+                  </div>
+                  
+                  <!-- Жилье, Еда, Суверины -->
+                  <div class="features-item">
+                      <div class="features-icon-house"></div>
+                      <h2 class="features-title">Жилье</h2>
                       <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                   </div>
+                  
                   <div class="features-item">
-                      <img src="img/index-pic2.png" width="" height="" alt="">
-                      <h2 class="features-title">Еда</h2> <!-- Какой тег использовать лучше <h2> или <b> -->
+                      <div class="features-icon-eat"></div>
+                      <h2 class="features-title">Еда</h2>
                       <p>Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
                   </div>
+                  
                   <div class="features-item">
-                      <img src="img/index-pic3.png" width="" height="" alt="">
-                      <h2 class="features-title">Сувениры</h2> <!-- Какой тег использовать лучше <h2> или <b> -->
+                      <div class="features-icon-gift"></div>
+                      <h2 class="features-title">Сувениры</h2>
                       <p>Не только китайского, но и местного производства!</p>
                   </div>
-              </div>
-              <!-- Второй длинный блок -->
-              <div class="features-item">
-                  <div class="features-item-left"> <!-- Продумать название класса -->
-                      <b class="features-name">Там есть мост дьявола</b>
-                      <p>№2</p>
-                      <p>Да, по нему можно пройти! Если конечно Вы осмелитесь</p>
-                  </div>
-                  <div class="features-item-right">
-                      <img src="img/index-img2.png" width="" height="" alt="Картинка блока 2">
-                  </div>
-              </div>
-              <!-- Второй часть с маленькими блоками  -->
-              <div class="features-item-small">
+                  
+                  <!-- #2-->
                   <div class="features-item">
-                      <h2 class="features-title">Небольщая площадь</h2> <!-- Какой тег использовать лучше <h2> или <b> -->
-                      <p>№3</p>
-                      <p>Все достопримечательност находятся очень близко</p>
+                      <div class="features-item-text">
+                          <h2 class="features-item-name">Там есть мост дьявола</h2>
+                          <div class="features-item-number">№2</div>
+                          <p class="features-item-description">Да, по нему можно пройти! Если конечно Вы осмелитесь</p>
+                      </div>
+                      <div class="features-item-img">
+                          <img src="img/pic-2.jpg" width="" height="" alt="Картинка блока 1">
+                      </div>
                   </div>
+                  
+                  <!-- #3 -->
                   <div class="features-item">
-                      <h2 class="features-title">Красивая дорога</h2> <!-- Какой тег использовать лучше <h2> или <b> -->
-                      <p>№4</p>
-                      <p>Ехать в Седону из Лас-Вегаса совсем не скучно</p>
+                      <h2 class="features-title">Небольшая площадь</h2>
+                      <div class="features-item-number">№3</div>
+                      <p class="features-item-description">Все достопримечательност находятся очень близко</p>
                   </div>
+                  
+                  <!-- #4 -->
                   <div class="features-item">
-                      <h2 class="features-title">Сувениры</h2> <!-- Какой тег использовать лучше <h2> или <b> -->
-                      <p>№5</p>
-                      <p>Большинство едет в Гранд Каньон и толпится там</p>
+                      <h2 class="features-title">Красивая дорога</h2>
+                      <div class="features-item-number">№4</div>
+                      <p class="features-item-description">Ехать в Седону из Лас-Вегаса совсем не скучно</p>
                   </div>
+                  
+                  <!-- #5 -->
+                  <div class="features-item">
+                      <h2 class="features-title">Мало туристов</h2>
+                      <div class="features-item-number">№5</div>
+                      <p class="features-item-description">Большинство едет в Гранд Каньон и толпится там</p>
+                  </div>
+              </section>
+              
+              <!-- Форма -->
+              <section class="form">
+                  <div class="form-title">Заинтерисовались?</div>
+                  <p class="form-date">Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+                  <div class="form-hotel-search">
+                  
+                  </div>
+              </section>
+              
+              <!-- Карта -->
+              <section class="maps">
+                  <!-- Интерактавная карта -->
+              </section>
+          </main>
+          <footer class="main-footer">
+              <div class="footer-tag">
+                  <p>#VISITSEDONA</p>
               </div>
-          </section>
-          <section class="map">
-              <div class="map-item">
-                  <h1 class="map-name">Заинтерисовались?</h1>
-                  <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+              <div class="footer-social">
+                  <a class="social-btn social-btn-tw" href="#">Twitter</a>
+                  <a class="social-btn social-btn-fb" href="#">Facebook</a>
+                  <a class="social-btn social-btn-yt" href="#">YouTube</a>
               </div>
-              <!-- Интерактивная карта  -->
-              <div class="map-interactive">
-                  <!-- Содержимое блока  -->
-              </div>
-          </section>
-      </main>
-      <footer class="main-footer">
-              <div class="container">
-                  <section class="footer-tag">
-                      <p>#VISITSEDONA</p>
-                  </section>
-                  <section class="footer-social">
-                      <a class="social-btn social-btn-tw" href="#">Twitter</a>
-                      <a class="social-btn social-btn-fb" href="#">Facebook</a>
-                      <a class="social-btn social-btn-yt" href="#">YouTube</a>
-                  </section>
-                  <section class="footer-copyright">
-                      <p>Website by</p>
-                      <a class="btn" href="#"><img src="img/footer-coryright-logo.png" width="" height="" alt="Футер-лого"></a>
-                  </section>
+              <div class="footer-copyright">
+                  <p>Website by</p>
+                  <a class="btn" href="#"><img src="img/footer-coryright-logo.png" width="" height="" alt="Футер-лого"></a>
               </div>
           </footer>
+      </div>
   </body>
 </html>
