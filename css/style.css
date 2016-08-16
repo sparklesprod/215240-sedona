@@ -1,9 +1,24 @@
 body {
-    
+    font-size: 14px;
+    line-height: 26px;
+    color: #000;
+    font-weight: normal;
+    /* font-family: */
+}
+
+h1 {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000;
+    font-weight: bold;
+    /* font-family: ; */
 }
 
 .features-item h2 {
-    
-    
+    font-size: ;
+    line-height: ;
+    color: ;
+    font-weight: ;
+    /* font-family: ; */
 }
 
