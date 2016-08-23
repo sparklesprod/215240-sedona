@@ -6,12 +6,11 @@ body {
     /* font-family: */
 }
 
-h1 {
+.index-content-title {
     font-size: 21px;
     line-height: 26px;
     color: #000;
     font-weight: bold;
-    /* font-family: ; */
 }
 
 .features-item h2 {
@@ -19,6 +18,5 @@ h1 {
     line-height: ;
     color: ;
     font-weight: ;
-    /* font-family: ; */
 }
 
