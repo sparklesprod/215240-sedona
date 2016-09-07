@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.2);
     background: #fff;
@@ -31,17 +31,19 @@ body {
 
 .main-navigation ul {
     margin: 0;
-    padding: 4px 0;
+    padding: 0;
     font-size: 0;
 }
 
 .main-navigation li {
     display: inline-block;
+    vertical-align: top;
     width: 20%;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     list-style: none;
     font-size: 14px;
+    line-height: 26px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -112,11 +114,12 @@ body {
 }
 
 .index-content {
-    height: 216px;
     background: #fff;
 }
 
 .index-content-text p {
+    margin: 0;
+    padding-bottom: 51px;
     font-size: 14px;
     line-height: 26px;
     color: #000;
@@ -130,8 +133,8 @@ body {
 }
 
 .index-content-title {
-    padding-top: 62px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 27px;
     font-size: 21px;
     line-height: 26px;
     text-transform: uppercase;
@@ -144,8 +147,8 @@ body {
 .features-item {
     float: left;
     width: 400px;
-    padding-top: 50px;
-    padding-bottom: 84px;
+    padding-top: 61px;
+    padding-bottom: 81px;
     padding-left: 60px;
     padding-right: 60px;
     box-sizing: border-box;
@@ -155,18 +158,27 @@ body {
 }
 
 .features-item-grey {
+    padding-top: 47px;
+    padding-bottom: 60px;
     background: #eee;
 }
 
+.features-item-grey .features-item-number {
+    padding-top: 2px;
+    padding-bottom: 25px;
+}
+
 .features-item p {
-    margin-bottom: 0;
+    margin: 0;
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
 }
 
 .features-item-name {
+    margin: 0;
     font-size: 21px;
+    line-height: 21px;
     text-transform: uppercase;
 }
 
@@ -177,12 +189,13 @@ body {
     min-height: 256px;
     padding-top: 56px;
     padding-bottom: 53px;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 58px;
+    padding-right: 58px;
     box-sizing: border-box;
     color: #fff;
     text-align: center;
     font-size: 14px;
+    line-height: 21px;
     text-transform: uppercase;
     background: #81b3d2;
 }
@@ -200,13 +213,14 @@ body {
 
 .features-title {
     margin: 0;
-    padding-bottom: 21px;
+    padding-bottom: 23px;
     line-height: 21px;
     text-transform: uppercase;
 }
 
 .features-item-number {
-    padding-bottom: 22px;
+    padding-top: 21px;
+    padding-bottom: 21px;
 }
 
 .features-icon-house::before {
@@ -215,7 +229,7 @@ body {
     width: 75px;
     height: 72px;
     margin: 0 auto;
-    padding-bottom: 26px;
+    padding-bottom: 30px;
     background: url("../img/house.png") no-repeat;
 }
 
@@ -225,7 +239,7 @@ body {
     width: 74px;
     height: 70px;
     margin: 0 auto;
-    padding-bottom: 28px;
+    padding-bottom: 31px;
     background: url("../img/eat.png") no-repeat;
 }
 
@@ -235,24 +249,28 @@ body {
     width: 64px;
     height: 76px;
     margin: 0 auto;
-    padding-bottom: 22px;
+    padding-bottom: 26px;
     background: url("../img/gift.png") no-repeat;
 }
 
 .filter {
-    padding: 32px 73px;
+    padding-top: 28px;
+    padding-bottom: 32px;
+    padding-left: 70px;
+    padding-right: 73px;
     background: #82b0d1 url("../img/catalog-content-bg.jpg") no-repeat;
 }
 
 .sorting {
     display: inline-block;
-    min-width: 1054px; /* <----------------------------- ПРОВЕРИТЬ --------- */
+    width: 1054px;
     padding: 30px 73px;
     border-bottom: 1px solid #e5e5e5;
 }
 
 .sort-type {
     display: inline-block;
+    width: 1005px;
     vertical-align: middle;
 }
 
@@ -265,7 +283,7 @@ body {
 .sort-type ul {
     display: inline-block;
     vertical-align: middle;
-    width: 756px;
+    width: 755px;
     margin: 0;
     padding: 0;
     font-size: 0;
@@ -274,6 +292,7 @@ body {
 
 .sort-type li {
     display: inline-block;
+    vertical-align: top;
     list-style: none;
     font-size: 12px;
     line-height: 18px;
@@ -307,6 +326,7 @@ body {
 }
 
 .sort-type-result {
+    width: 117px;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
@@ -314,6 +334,7 @@ body {
 }
 
 .sort-type-by {
+    width: 75px;
     padding-left: 50px;
     font-size: 12px;
     line-height: 18px;
@@ -322,12 +343,14 @@ body {
 
 .sort-arrow {
     display: inline-block;
+    width: 45px;
     vertical-align: middle;
 }
 
 .sort-arrow a {
     font-size: 0;
     color: #cccccc;
+    text-decoration: none;
 }
 
 .sort-arrow span {
@@ -353,6 +376,7 @@ body {
 
 .item-description {
     float: left;
+    width: 700px;
     margin-left: 30px;
 }
 
@@ -371,7 +395,7 @@ body {
 }
 
 .rating-stars {
-    margin-bottom: 39px;
+    margin-bottom: 42px;
 }
 
 .rating-stars span {
@@ -380,8 +404,8 @@ body {
 }
 
 .rating-text {
+    float: right;
     width: 110px;
-    height: 27px;
     font-size: 14px;
     line-height: 27px;
     text-transform: uppercase;
@@ -398,7 +422,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 21px;
-    line-height: 26px;
+    line-height: 18px;
     text-transform: uppercase;
     color: #000;
 }
@@ -412,8 +436,8 @@ body {
 }
 
 .item-description-info {
-    margin-top: 9px;
-    margin-bottom: 10px;
+    margin-top: 13px;
+    margin-bottom: 16px;
 }
 
 .item-description-info p {
@@ -427,7 +451,8 @@ body {
 .item-btn-more {
     display: inline-block;
     vertical-align: middle;
-    width: 110px;
+    padding-left: 16px;
+    padding-right: 16px;
     height: 27px;
     text-align: center;
     background: #81b3d2;
@@ -445,7 +470,9 @@ body {
 .item-btn-book {
     display: inline-block;
     vertical-align: middle;
-    width: 142px;
+    margin-left: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
     height: 27px;
     text-align: center;
     background: #766357;
@@ -472,8 +499,8 @@ body {
 .form-date {
     padding-left: 382px;
     padding-right: 382px;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 35px;
 }
 
 .main-form p {
@@ -559,6 +586,7 @@ iframe {
 
 .social-btn {
     display: inline-block;
+    vertical-align: top;
     width: 46px;
     height: 20px;
     padding-top: 14px;
@@ -593,6 +621,7 @@ iframe {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
+    text-transform: uppercase;
 }
 
 .footer-social {
@@ -647,31 +676,28 @@ iframe {
 }
 
 @font-face {
-  font-weight: normal;
-  font-style: normal;
-
-  font-family: "symbols-sedona";
-  src: url("../fonts/symbols-sedona.woff") format("woff"),
-       url("../fonts/symbols-sedona.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-family: "symbols-sedona";
+    src: url("../fonts/symbols-sedona.woff") format("woff"),
+         url("../fonts/symbols-sedona.woff2") format("woff2");
 }
 
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
-  display: inline-block;
-  /*width: 1em; */
-  margin-right: 0.2em;
-  margin-left: 0.2em;
-
-  font-weight: normal;
-  line-height: 1em;
-  font-family: "symbols-sedona";
-  text-align: center;
-  text-transform: none;
-  text-decoration: inherit;
-  font-style: normal;
-  font-variant: normal;
-
-  speak: none;
+    display: inline-block;
+    /*width: 1em; */
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    font-weight: normal;
+    line-height: 1em;
+    font-family: "symbols-sedona";
+    text-align: center;
+    text-transform: none;
+    text-decoration: inherit;
+    font-style: normal;
+    font-variant: normal;
+    speak: none;
 }
 
 .icon-facebook::before { content: "\66"; font-size: 19px;} /* "f" */
@@ -695,7 +721,7 @@ iframe {
 
 fieldset {
     float: left;
-    margin-right: 115px;
+    margin-right: 117px;
     padding: 0;
     border: none;
 }
@@ -716,7 +742,7 @@ fieldset input {
 }
 
 legend {
-    margin-bottom: 21px;
+    margin-bottom: 25px;
     font-size: 16px;
     line-height: 21px;
     font-weight: bold;
@@ -740,12 +766,11 @@ legend {
 
 .price-control {
     position: relative;
-    height: 36px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    height: 33px;
+    margin-left: 12px;
+    margin-bottom: 18px;
     border: 2px solid #fff;
     border-radius: 2px;
-    
     font-size: 0;
 }
 
@@ -755,10 +780,8 @@ legend {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
     width: 2px;
     height: 22px;
-    
     background: #fff;
 }
 
@@ -766,23 +789,21 @@ legend {
     display: inline-block;
     vertical-align: top;
     font-size: 14px;
-    line-height: 35px;
+    line-height: 30px;
     cursor: pointer;
 }
 
 .price-control .min-price,
 .price-control .max-price {
     width: 85px;
-    padding-left: 50px;
+    padding-left: 64px;
 }
 
 .price-control input {
     width: 50%;
     margin: 0;
-    
     color: inherit;
     font: inherit;
-    
     background: none;
     border: none;
     outline: none;
@@ -791,12 +812,11 @@ legend {
 .range-control {
     position: relative;
     margin-left: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 32px;
 }
 
 .range-control .scale {
     height: 2px;
-    
     background: rgba(255, 255, 255, 0.3);
 }
 
@@ -809,10 +829,8 @@ legend {
 .range-toggle {
     position: absolute;
     top: -9px;
-    
     width: 4px;
     height: 4px;
-    
     background: #ababab;
     border: 8px solid #fff;
     border-radius: 50px;
@@ -835,13 +853,11 @@ legend {
 .btn-transperent {
     display: block;
     margin: 0 auto;
-    padding: 6px 35px;
-    
+    padding: 6px 32px;
     font-size: 14px;
     line-height: 20px;
     color: #fff;
     text-transform: uppercase;
-    
     background: transparent;
     border: 2px solid #fff;
     border-radius: 2px;
@@ -859,7 +875,7 @@ legend {
 }
 
 .filter-checkbox:last-child {
-    margin-bottom: 0;
+    margin-bottom: 1px;
 }
 
 .filter-checkbox input[type="checkbox"] {
@@ -873,6 +889,10 @@ legend {
     padding-left: 40px;
     color: #b6b6b6;
     cursor: pointer;
+}
+
+.filter-checkbox input[type="checkbox"]:checked + label {
+    color: #fff;
 }
 
 .filter-checkbox input[type="checkbox"] + label:hover {
@@ -895,7 +915,7 @@ legend {
 
 .filter-checkbox input[type="checkbox"]:checked + label::before {
     content: "\2611";
-    color: #b6b6b6;
+    color: #fff;
 }
 
 .filter-checkbox input[type="checkbox"]:checked + label:hover::before {
@@ -930,30 +950,30 @@ legend {
 /* FORM STYLES */
 
 .form-search {
-	margin: 0 auto;
-	width: 458px;
-	padding: 55px;
-	background-color: #fff;
-	font-size: 0;
-	font-weight: bold;
-	line-height: 26px;
+    margin: 0 auto;
+    width: 458px;
+    padding: 55px;
+    background-color: #fff;
+    font-size: 0;
+    font-weight: bold;
+    line-height: 26px;
 }
 
 .form-search.is-visible {
-	display: block;
+    display: block;
 }
 
 .form-search-row {
-	position: relative;
-	margin-bottom: 30px;
-	font-size: 0;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 0;
 }
 
 .form-search-label {
-	display: inline-block;
-	width: 100px;
-	margin-right: 13px;
-	font-size: 14px;
+    display: inline-block;
+    width: 100px;
+    margin-right: 13px;
+    font-size: 14px;
 }
 
 .form-search-data-field {
@@ -1043,6 +1063,7 @@ legend {
 	background-color: #f2f2f2;
 	font-family: "symbols-sedona";
 	font-size: 14px;
+    cursor: pointer;
 }
 
 .counter-btn:hover {
