@@ -12,7 +12,9 @@ _`Базовый HTML и CSS #14`_
 
 ### Результаты верстки
 
-
+<p align="center">
 <img width="769" alt="" src="https://raw.githubusercontent.com/sparklesprod/215240-sedona/master/result/Sedona%20-%20index.png">
+</p>
+
 
 Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Базовый HTML и CSS](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
