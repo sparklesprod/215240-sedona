@@ -10,10 +10,19 @@ _`Базовый HTML и CSS #14`_
 
 ---
 
-### Результаты верстки
+### Результаты верстки <br>
+_`index.html`_
 
 <p align="center">
 <img width="769" alt="" src="https://raw.githubusercontent.com/sparklesprod/215240-sedona/master/result/Sedona%20-%20index.png">
+</p>
+
+<br>
+
+_`catalog.html`_
+
+<p align="center">
+<img width="769" alt="" src="https://raw.githubusercontent.com/sparklesprod/215240-sedona/master/result/Sedona%20-%20catalog.png">
 </p>
 
 
