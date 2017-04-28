@@ -13,6 +13,6 @@ _`Базовый HTML и CSS #14`_
 ### Результаты верстки
 
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391902/17d49924-bdfc-11e5-8864-05fbcbddbb90.jpg">
+<img width="769" alt="" src="https://raw.githubusercontent.com/sparklesprod/215240-sedona/master/result/Sedona%20-%20index.png">
 
 Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Базовый HTML и CSS](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
